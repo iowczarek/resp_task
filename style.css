@@ -1,0 +1,52 @@
+body {
+    background-color: green;
+    margin: 0;
+}
+.header {
+    padding: 16px;
+    background: yellow;
+    border-style: solid;
+    border-color: black;
+}
+.wrapper {
+    display: flex; 
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.square {
+    height: 70px;
+    width: 70px;
+    background-color: red;
+    border-style: solid;
+    border-color: black;
+   margin: 0% 0% 30% 0%;
+  }
+.middle {
+    display: flex;
+}
+ .eq {
+    height: 10px;
+    width: 100px;
+    background-color: blue;
+    margin-bottom:20px;
+    border-style: solid;
+    border-color: black;
+ } 
+ .circle {
+    height: 50px;
+    width: 50px;
+    background-color: gray;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: black;
+  }
+ .rectangle {
+    width: 70px;
+    height: 200px;
+    padding: 10px;
+    margin:20px 10px 20px 10px;
+    border-style: solid;
+    border-color: black;
+    background-color: blue;
+    
+ }
