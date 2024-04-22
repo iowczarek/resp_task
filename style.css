@@ -33,31 +33,35 @@ body {
     border-color: black;
    margin-bottom:30px;
   }
-
 .middle {
-    border: 1px solid red; 
     display: flex;
-    width: 300px;
-    /* margin: 5px; */
+    width: 250px;
 }
 .equal {
-    margin: 3%;
+    height: 90px;
+    position: relative;   
  }
- .eq {
+ .eq1, .eq2 {
     height: 10px;
     width: 100px;
     background-color: blue;
-    margin-bottom:20px;
+    margin: 15px;
     border-style: solid;
     border-color: black;
  } 
+ .eq2 {
+    margin-top: 30px;
+
+ }
+
  .circle {
-    height: 50px;
-    width: 50px;
-    background-color: gray;
+    height: 80px;
+    width: 80px;
+    background-color: #008080;
     border-radius: 50%;
     border-style: solid;
     border-color: black;
+    margin: 5px;
   }
 .right_box{
     width: 300px;
@@ -67,7 +71,7 @@ body {
     width: 100px;
     height: 250px;
     padding: 10px;
-    margin:20px 10px 20px 10px;
+    margin:0px 10px 20px 10px;
     border-style: solid;
     border-color: black;
     font-size: 20px;
