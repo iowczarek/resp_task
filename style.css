@@ -4,9 +4,8 @@ body {
 }
 .header {
     padding: 20px;
-    background: yellow;
-    border-style: solid;
-    border-color: black;
+    background: #808000;
+    border: 3px solid black;
 }
 .wrapper {
     display: flex; 
@@ -29,8 +28,7 @@ body {
     width: 130px;
     margin: auto;
     background-color: red;
-    border-style: solid;
-    border-color: black;
+    border: 2px solid black;
    margin-bottom:30px;
   }
 .middle {
@@ -56,8 +54,7 @@ body {
     width: 100px;
     background-color: blue;
     margin: 15px;
-    border-style: solid;
-    border-color: black;
+    border: 2px solid black;
  } 
  .eq2 {
     margin-top: 30px;
@@ -68,11 +65,11 @@ body {
     width: 80px;
     background-color: #008080;
     border-radius: 50%;
-    border-style: solid;
-    border-color: black;
+    border: 2px solid black;
     margin: 5px;
   }
 .right_box{
+
     width: 180px;
     order:3;
  
@@ -90,8 +87,7 @@ body {
     padding: 10px;
     margin: auto;
     margin-top: 20px;
-    border-style: solid;
-    border-color: black;
+    border: 2px solid black;
     font-size: 20px;
     text-align: center;
     font-family: Arial;
@@ -99,11 +95,9 @@ body {
     background-color: blue;
 
     @media screen and (min-width: 583px) {
-        background-color: red;
+        background-color: #C83737;
     }
-
     @media screen and (min-width: 900px) {
         background-color: #FFFFFF;
     }
-    
  }
