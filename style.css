@@ -3,28 +3,42 @@ body {
     margin: 0;
 }
 .header {
-    padding: 16px;
+    padding: 20px;
     background: yellow;
     border-style: solid;
     border-color: black;
+    width: 582px;
 }
 .wrapper {
     display: flex; 
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
+.left_box{
+    width: 320px;
+    height: 350px;
+}
+.squares {
+    width: 100%;
+    transform: rotate(45deg);  
+    transform-origin: center;
+    margin-top: 5px;
+}
 .square {
-    height: 70px;
-    width: 70px;
+    height: 130px;
+    width: 130px;
+    margin: auto;
     background-color: red;
     border-style: solid;
     border-color: black;
-   margin: 0% 0% 30% 0%;
+   margin-bottom:30px;
   }
+
 .middle {
     border: 1px solid red; 
     display: flex;
+    width: 300px;
+    /* margin: 5px; */
 }
 .equal {
     margin: 3%;
@@ -45,9 +59,13 @@ body {
     border-style: solid;
     border-color: black;
   }
+.right_box{
+    width: 300px;
+    border: 1px solid red;
+}
  .rectangle {
-    width: 70px;
-    height: 200px;
+    width: 100px;
+    height: 250px;
     padding: 10px;
     margin:20px 10px 20px 10px;
     border-style: solid;
