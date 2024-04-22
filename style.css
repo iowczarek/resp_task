@@ -7,7 +7,6 @@ body {
     background: yellow;
     border-style: solid;
     border-color: black;
-    width: 582px;
 }
 .wrapper {
     display: flex; 
@@ -15,6 +14,7 @@ body {
     flex-wrap: wrap;
 }
 .left_box{
+    order:1;
     width: 320px;
     height: 350px;
 }
@@ -35,7 +35,17 @@ body {
   }
 .middle {
     display: flex;
-    width: 250px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    order:2;
+    @media screen and (min-width: 583px){
+        order: 3;
+     }
+     @media screen and (min-width: 900px){
+        
+        order: 2;
+     }
 }
 .equal {
     height: 90px;
@@ -51,7 +61,6 @@ body {
  } 
  .eq2 {
     margin-top: 30px;
-
  }
 
  .circle {
@@ -64,14 +73,23 @@ body {
     margin: 5px;
   }
 .right_box{
-    width: 300px;
-    border: 1px solid red;
+    width: 180px;
+    order:3;
+ 
+    @media screen and (min-width: 583px){
+        order: 2;
+     }
+     @media screen and (min-width: 900px){
+        order: 3;
+     }
 }
  .rectangle {
+    
     width: 100px;
     height: 250px;
     padding: 10px;
-    margin:0px 10px 20px 10px;
+    margin: auto;
+    margin-top: 20px;
     border-style: solid;
     border-color: black;
     font-size: 20px;
